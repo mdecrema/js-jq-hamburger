@@ -5,10 +5,10 @@ var close = $(".close");
 
 // Apri menu
 hamBtn.click(function() {
-  hamMenu.css({display:'block'});
+  hamMenu.addClass("active");
 });
 
 // Chiudi menu
 close.click(function() {
-  hamMenu.css({display:'none'});
+  hamMenu.removeClass("active");
 });
