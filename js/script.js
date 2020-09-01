@@ -4,11 +4,11 @@ var hamMenu = $(".hamburger-menu");
 var close = $(".close");
 
 // Apri menu
-btn.click(function() {
-  hamMenu.show(700);
+hamBtn.click(function() {
+  hamMenu.css({display:'block'});
 });
 
 // Chiudi menu
 close.click(function() {
-  hamMenu.hide(500);
-})
+  hamMenu.css({display:'none'});
+});
